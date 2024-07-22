@@ -1,0 +1,35 @@
+keyword:= keyword are the predefined words which have some specific meaning abnd used to perform the some specific task
+identifiers := identifiers are the name is given to the variables  by the user
+rules for the identifiers 
+1. we cant use the keyword as a identifiers
+2. we cant use space between the identifiers name instead of that  we can use "_" or camel casing 
+3. we can use only two special character "-" &  "$"
+4. we cant start the identifiers with nu. but it can contain nu.
+
+
+PUNCTUATORS= symbols use in js
+: ; {} [] ()"" '' 
+
+OPERATORS: 
+operators are the special symbols use to perform some specific task by using of it between the operands
+
+Types  of the operators
+1. arihthamtic operators = + - * / %
+2. assingnment operators = += -= *= /= %= 
+
+
+
+******* call stack and the heap area
+every premitive data types are stored temorory in the call stack area 
+there are two phase of the call stack area that is variables declaration and variables execution
+
+Heap area contaian all types of the predefined objects and the methods and only the var data types can be stored inside the heap area
+
+***
+closure properties =>
+
+ ****************** closure ********* 
+ the ability of the js engine to search for the variables from the  function even the fucniton is removed from the execution context ()
+ or we can said removed from the call stack
+
+ 
