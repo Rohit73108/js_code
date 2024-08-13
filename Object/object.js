@@ -226,8 +226,21 @@ let obj1={
 // console.log(copy);
 // console.log(copy.name);
 
-let copy=JSON.parse(JSON.stringify(obj1))
-console.log(copy);
+// let copy=JSON.parse(JSON.stringify(obj1))
+// console.log(copy);
+
+let Bagpack={
+    item1:"Torch",
+    item2:"Tiffin",
+    item3:"Rope",
+    item4:"Knife",
+    item5:"Water",
+    item6:"First Aid box",
+}
+let {item1 , item2, item3, item4, item5, item6}=Bagpack
+console.log(Bagpack.item1);
+console.log(item1);
+
 
 
 

@@ -32,4 +32,12 @@ closure properties =>
  the ability of the js engine to search for the variables from the  function even the fucniton is removed from the execution context ()
  or we can said removed from the call stack
 
- 
+ ********* Diffrent between foreach and the map iterator ******
+ foreach:=it does'nt return the something , and does'nt modified original array 
+ forin:=  it does'nt return the something , and does'nt modified original array 
+ forof:=  it does'nt return the something , and does'nt modified original array 
+ sort:=  it return the something , and also modified original array
+
+ map:=    it return the something , and does'nt modified original array
+ filter:= it return the something , and does'nt modified original array
+ reduce:= it return the something , and does'nt modified original array
